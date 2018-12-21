@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><strong>Bu, size yardımcı oldu mu?</strong></p>
+
+<button id="btn1" type="button" onclick= "function1()"> Evet </button>
+
+<button id="btn2" type="button" onclick= "function2()"> Hayır </button>
+
+<p id="demo"></p>
+
+
+<script type="text/javascript">
+
+                function function1() {
+
+                  var mycode = "&#128578 Teşekkürler.";
+
+                  document.getElementById('demo').innerHTML = mycode;
+
+                  document.getElementById('btn1').disabled = true;
+
+                  document.getElementById('btn2').disabled = true;
+
+                }
+
+                function function2() {
+
+                  var mycode = "&#128543 Daha iyi yapmaya çalışacağız. <a class='link' href='https://www.albaraka.com.tr/iletisim-formu.aspx' rel='nofollow'>Detay Bildir</a>";
+
+                  document.getElementById('demo').innerHTML = mycode;
+
+                  document.getElementById('btn1').disabled = true;
+
+                  document.getElementById('btn2').disabled = true;
+
+                }
+
+</script>
+
+</body>
+</html> 
